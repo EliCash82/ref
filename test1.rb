@@ -107,13 +107,69 @@
 # puts books[4]
 # puts books[5]
 
-shows = ['HIMYM', 'David the Gnome', 'Happy Days']
+# shows = ['HIMYM', 'David the Gnome', 'Happy Days']
 
-shows.each do |tv|
-  puts 'I love ' + tv + '!'
-  puts 'Don\'t you?'
+# shows.each do |tv|
+#   puts 'I love ' + tv + '!'
+#   puts 'Don\'t you?'
+# end
+#
+# puts 'And I fuggin HATE The New Girl!'
+# puts '<applause>'
+
+# games = ['Donkey Kong', 'Super Mario', 'Battletoads']
+
+# puts games
+# puts
+# puts games.to_s
+# puts
+# puts games.join(', ')
+# puts
+# puts games.join(' :) ') + ' 8)'
+
+#  40.times do
+#   name = ["Anderson", "Evans"]
+#   puts name.join
+#  end
+
+# novellas = []
+# novellas.push 'The End of The Road'
+# novellas.push 'The Grand Inquisitor'
+
+# puts novellas[0]
+# puts novellas.last
+# puts novellas.length
+
+# puts novellas.pop
+# puts novellas
+# puts novellas.length
+
+# Exercises
+
+# girls = ['Zelda', 'Julia', 'Katie', 'Megan']
+# puts girls.sort
+
+# puts "How many pounds?"
+# pounds = gets.chomp.to_s + " "
+# puts "How many lira?"
+# lira = gets.chomp.to_s + " " 
+# puts "How many dollars?"
+# dollars = gets.chomp.to_s + " "
+
+# puts pounds
+# puts lira
+# puts dollars
+
+# bank = [pounds, lira, dollars]
+# banks = bank.join
+# good_bank = bank.sort
+# puts 'Soon you shall aquire ' + banks + 'until you are rich!'
+# dang = bank.sort.join(', ')
+#puts "You have a ton of" + dang
+
+def double_this num
+  num_times_2 = num*2
+  puts num.to_s+' doubled is '+num_times_2.to_s
 end
 
-puts 'And I fuggin HATE The New Girl!'
-puts '<applause>'
-
+double_this 22
